@@ -1,0 +1,7 @@
+import RawHtml from './RawHtml';
+
+const markup = "<div class=\"foot-wrap\">\n  <footer class=\"footer\">\n    <div class=\"top\">\n      <div>\n        <a href=\"#/\" class=\"brand\">Intellio<b>Era</b></a>\n        <p class=\"desc\">Business growth tools and automation for every stage — from a single team to the enterprise. The era of intelligent work.</p>\n        <div class=\"social\" id=\"footSocial\"></div>\n      </div>\n      <div><h5>PAGES</h5><ul><li><a href=\"#/\">Home</a></li><li><a href=\"#solutions\">Products</a></li><li><a href=\"#/solutions\">Solutions</a></li><li><a href=\"#/pricing\">Pricing</a></li><li><a href=\"#/about\">About Us</a></li><li><a href=\"#/blogs\">Blogs</a></li><li><a href=\"#/compare\">Growth</a></li><li><a href=\"#/faq\">FAQ</a></li><li><a href=\"#/contact\">Contact</a></li><li><a href=\"#/demo\">Book a Demo</a></li></ul></div>\n      <div><h5>AGENTS</h5><ul id=\"footAgents\"></ul></div>\n      <div><h5>CONTACT</h5><ul><li><a href=\"mailto:hello@intellioera.com\">hello@intellioera.com</a></li><li><a href=\"#/demo\">Book a Demo</a></li><li><a href=\"#\" class=\"open-live\">Ask Live</a></li><li><a href=\"#\">Careers</a></li><li><a href=\"#\">Privacy Policy</a></li><li><a href=\"#\">Terms of Service</a></li></ul></div>\n    </div>\n    <div class=\"bottom\"><span>© 2026 IntellioEra. All rights reserved.</span><nav><a href=\"#\">Privacy</a><a href=\"#\">Terms</a><a href=\"#\">Security</a></nav></div>\n  </footer>\n</div>";
+
+export default function Footer() {
+  return <RawHtml html={markup} />;
+}

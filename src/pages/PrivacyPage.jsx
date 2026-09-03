@@ -1,0 +1,7 @@
+import RawHtml from '../components/RawHtml';
+
+const markup = "<div class=\"page\" data-page=\"privacy\"><div class=\"wrap page-head\"><span class=\"kicker\">Privacy Policy</span><h1>Your data, <span class=\"o\">your control.</span></h1><p>IntellioEra processes business data only to run the agents you enable. Data is encrypted in transit and at rest, access is role-based, and nothing is shared between customers or used to train public models. You can export or delete your data at any time by contacting hello@intellioera.com.</p></div><section class=\"sec\" style=\"padding-top:0\"><div class=\"wrap\" style=\"max-width:820px;color:var(--ink2);font-weight:500;line-height:1.8\"><h3 style=\"color:var(--ink);font-weight:800;margin-bottom:8px\">What we collect</h3><p>Account details, the business accounts you connect (messaging, social, calendar, finance and cloud systems) and the activity those agents generate.</p><h3 style=\"color:var(--ink);font-weight:800;margin:22px 0 8px\">How we use it</h3><p>Only to run your agents, produce your reports and improve your own automation. We do not sell data and we do not advertise with it.</p><h3 style=\"color:var(--ink);font-weight:800;margin:22px 0 8px\">Security</h3><p>Encryption, role-based permissions, audit logs and regular reviews. Report a concern to security@intellioera.com.</p></div></section></div>";
+
+export default function PrivacyPage() {
+  return <RawHtml html={markup} />;
+}
